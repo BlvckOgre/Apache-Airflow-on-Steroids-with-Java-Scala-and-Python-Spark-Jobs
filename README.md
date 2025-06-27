@@ -26,6 +26,8 @@ This project orchestrates Spark jobs written in **Python**, **Scala**, and **Jav
 .
 ├── dags/
 │   └── spark_airflow.py       # Airflow DAG
+├── img/
+│   └── Capture.PNG            # Airflow Graph
 ├── jobs/
 │   ├── python/
 │   │   └── wordcountjob.py    # Python Spark job
@@ -40,6 +42,11 @@ This project orchestrates Spark jobs written in **Python**, **Scala**, and **Jav
 ├── Dockerfile
 └── .dockerignore
 ```
+
+### 🚀 Apache Airflow Graph with Multi-Language Spark Job Orchestration
+
+![Airflow + Spark Architecture](img/Capture.PNG)
+
 
 ---
 
